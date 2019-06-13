@@ -234,7 +234,7 @@
                               </div>
                               <div class="accReg-dropdown">
                                 <dropdown *ngIf="deploymentTargetSelected !== 'gcp_apigee'" class='dropdown'  [dropdwnContent]="accountList" title="accountDetails" [selected]="accountDetails" (onSelected)="onaccountSelected($event)"></dropdown>
-                                <div *ngIf="deploymentTargetSelected === 'gcp_apigee'" class="defaultDropdown">302890901340 (tmodevops)</div>
+                                <div *ngIf="deploymentTargetSelected === 'gcp_apigee'" class="defaultDropdown">{primaryAccount} (tmodevops)</div>
                               </div>
                             </div>
                             <div class="">
