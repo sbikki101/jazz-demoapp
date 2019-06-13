@@ -1,0 +1,19 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.serverless
+node_modules
+.DS_Store
+.vscode/
+/.idea
+*/.classpath
+*/.project
+*/.settings
+*/RemoteSystemsTempFiles/
+.metadata/
+.recommenders/
+*/target/
+.nyc_output/
+npm-debug.log
+/.idea
+package-lock.json
+
+core/jazz_ui/target/
